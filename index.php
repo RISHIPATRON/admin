@@ -11,38 +11,31 @@
 					<div class="text-center mb-10">
 						<!--begin::Title-->
 						<img src="images/via_time_logo.png" alt="via_time_logo">
-						<h1 class="text-dark mb-3">Sign In to Metronic</h1>
+						<h1 class="text-dark mb-3">Login In to ViaTime</h1>
 						<!--end::Title-->
 						<!--begin::Link-->
-						<div class="text-gray-400 fw-bold fs-4">New Here?
-							<a href="../../demo1/dist/authentication/flows/basic/sign-up.html" class="link-primary fw-bolder">Create an Account</a></div>
+						<div class="text-gray-400 fw-bold fs-4">Sign in to continue
+							<!-- <a href="../../demo1/dist/authentication/flows/basic/sign-up.html" class="link-primary fw-bolder">Create an Account</a></div> -->
 							<!--end::Link-->
 						</div>
 						<!--begin::Heading-->
 						<!--begin::Input group-->
 						<div class="fv-row mb-10 fv-plugins-icon-container">
 							<!--begin::Label-->
-							<label class="form-label fs-6 fw-bolder text-dark">Email</label>
+							
 							<!--end::Label-->
 							<!--begin::Input-->
-							<input class="form-control form-control-lg form-control-solid" type="text" name="email" autocomplete="off">
+							<input class="form-control form-control-lg form-control-solid" type="text" name="email" placeholder="username/ Email Address" autocomplete="off">
 							<!--end::Input-->
 							<div class="fv-plugins-message-container invalid-feedback"></div></div>
 							<!--end::Input group-->
 							<!--begin::Input group-->
 							<div class="fv-row mb-10 fv-plugins-icon-container">
 								<!--begin::Wrapper-->
-								<div class="d-flex flex-stack mb-2">
-									<!--begin::Label-->
-									<label class="form-label fw-bolder text-dark fs-6 mb-0">Password</label>
-									<!--end::Label-->
-									<!--begin::Link-->
-									<a href="../../demo1/dist/authentication/flows/basic/password-reset.html" class="link-primary fs-6 fw-bolder">Forgot Password ?</a>
-									<!--end::Link-->
-								</div>
+								
 								<!--end::Wrapper-->
 								<!--begin::Input-->
-								<input class="form-control form-control-lg form-control-solid" type="password" name="password" autocomplete="off">
+								<input class="form-control form-control-lg form-control-solid" placeholder="password" type="password" name="password" autocomplete="off">
 								<!--end::Input-->
 								<div class="fv-plugins-message-container invalid-feedback"></div></div>
 								<!--end::Input group-->

@@ -1,0 +1,17 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blue {
+  color: #170c6b;
+}
+
+input.form-control {
+  background: transparent;
+  display: block;
+  height: auto;
+  border: none;
+  border-bottom: 2px solid #202020 !important;
+  border-radius: 0;
+}
+/*# sourceMappingURL=style.css.map */
