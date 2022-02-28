@@ -4,6 +4,10 @@
   }
 }
 
+.btn {
+  background: transparent;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: white;
@@ -56,6 +60,24 @@ body {
   }
 }
 
+input.form-control {
+  background-color: transparent !important;
+  display: block;
+  height: auto;
+  border: none;
+  border-bottom: 1px solid #afafaf !important;
+  border-radius: 0;
+  padding-left: 35px;
+}
+
+input.form-control:active {
+  background-color: transparent !important;
+}
+
+input.form-control:focus {
+  background-color: transparent !important;
+}
+
 @media (max-width: 667px) {
   .login {
     background: transparent !important;
@@ -74,24 +96,6 @@ body {
     -o-object-fit: contain;
        object-fit: contain;
   }
-}
-
-input.form-control {
-  background-color: transparent !important;
-  display: block;
-  height: auto;
-  border: none;
-  border-bottom: 1px solid #afafaf !important;
-  border-radius: 0;
-  padding-left: 35px;
-}
-
-input.form-control:active {
-  background-color: transparent !important;
-}
-
-input.form-control:focus {
-  background-color: transparent !important;
 }
 
 .login {
