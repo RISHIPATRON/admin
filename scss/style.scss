@@ -1,3 +1,4 @@
+// @import 'vendors/bootstrap';
 @import 'utilities/var';
 @import 'base/typography';
 @import 'utilities/responsive';
@@ -8,4 +9,5 @@
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/sidebar';
-@import 'vendors/bootstrap';
+@import 'themes/style.bundle';
+@import 'themes/plugin.bundle';
